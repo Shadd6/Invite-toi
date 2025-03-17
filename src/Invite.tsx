@@ -66,7 +66,7 @@ const Invite = () => {
 
         {/* Карта */}
         <iframe
-          src="https://www.google.com/maps?q=43.35612776481399, 77.07046041952957&output=embed"
+          src="https://www.google.com/maps?q=43.362040055635255, 77.07847015748573&output=embed"
           allowFullScreen
           loading="lazy"
         ></iframe>
