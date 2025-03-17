@@ -72,7 +72,7 @@ const Invite = () => {
         ></iframe>
 
         {/* Кнопка "Открыть на карте" */}
-        <button onClick={() => window.open("https://maps.app.goo.gl/srHJ83NweAXA2brB7", "_blank")}>
+        <button onClick={() => window.open("https://go.2gis.com/5x0tR", "_blank")}>
           Открыть на карте
         </button>
       </div>
