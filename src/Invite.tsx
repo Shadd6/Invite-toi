@@ -77,8 +77,9 @@ const Invite = () => {
         </button>
       </div>
 
-      
-      {/* Пожелания (Карусель) */}
+         
+
+      {/*  Пожелания (Карусель)  */}
       <div className="container wishes">
         <h2>Қонақтардың тілектері</h2>
         
