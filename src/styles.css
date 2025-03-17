@@ -1,0 +1,159 @@
+/* Общий стиль страницы */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Контейнер */
+.invite-container {
+  max-width: 90%;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Фото семьи */
+.family-photo {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Заголовки */
+h1 {
+  font-size: 36px;
+  color: #d48806;
+}
+
+h2 {
+  font-size: 28px;
+  color: #d48806;
+  margin-top: 20px;
+}
+
+/* Карточка с инфой */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Отсчет до начала */
+.countdown {
+  font-size: 24px;
+  color: #d48806;
+  margin-bottom: 20px;
+}
+
+/* Адрес */
+h3 {
+  color: #333;
+  font-size: 20px;
+}
+
+/* Карта */
+iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Кнопка "Открыть на карте" */
+button {
+  background-color: #d48806;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #a86c04;
+}
+
+/* Пожелания */
+.wishes {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Текст пожелания */
+.wish-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d48806;
+}
+
+.wish-note {
+  font-size: 14px;
+  color: #777;
+}
+
+.wish-text {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #444;
+}
+
+/* Карусель управления */
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Радио-кнопки */
+.radio-buttons input {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Кнопки-перелистывания */
+.arrow-btn {
+  background: none;
+  color: #d48806;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-btn:hover {
+  color: #a86c04;
+}
+img {
+  width: 100%;
+  height: 500px; /* Или auto, если фиксированная высота не нужна */
+  object-fit: cover;
+  object-position: 50% 35%
+}
+
+
+
+button:focus,
+.radio-buttons input:focus,
+.arrow-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
